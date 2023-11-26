@@ -6,6 +6,6 @@ https://arkusze.pl/technik-programista-egzamin-zawodowy/
 
 #
 
-### Result:
+### Result - ARKUSZ EE.09 2022 - CZERWIEC - ZAD. 02 (JS):
 
 ![Alt my-work](my-work.png)
