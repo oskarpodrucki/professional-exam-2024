@@ -1,0 +1,66 @@
+body {
+    font-family: Helvetica;
+}
+
+
+#left1 {
+    height: 400px;
+    width: 70%;
+    background-color: Snow;
+    text-align: center;
+    float: left;
+}
+
+#left2 {
+    height: 400px;
+    width: 70%;
+    background-color: Snow;
+    font-size: 150%;
+    float: left;
+}
+
+#right1 {
+    height: 150px;
+    width: 30%;
+    background-color: Steelblue;
+    color: white;
+    text-align: center;
+    float: left;
+}
+
+#right2 {
+    height: 350px;
+    width: 30%;
+    background-color: Steelblue;
+    color: white;
+    float: left;
+}
+
+#right3 {
+    height: 300px;
+    width: 30%;
+    background-color: Snow;
+    text-align: center;
+    float: left;
+
+}
+
+#footer {
+    background-color: Steelblue;
+    color: white;
+    clear: both;
+}
+
+h2 {
+    font-size: 250%
+}
+
+img {
+    padding: 4px;
+}
+
+img:hover {
+    padding: 3px;
+    border: 1px solid steelblue;
+} 
+

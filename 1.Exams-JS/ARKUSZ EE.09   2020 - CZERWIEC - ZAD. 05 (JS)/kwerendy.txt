@@ -1,0 +1,21 @@
+Zapytanie 1: wybierająca jedynie pola imie i nazwisko z tabeli kadra dla pracowników na stanowisku fryzjer
+
+SELECT imie, nazwisko FROM `kadra` WHERE stanowisko="fryzjer";
+
+
+Zapytanie 2: liczące liczbę rekordów w tabeli uslugi dla wszystkich usług fryzjerskich (rodzaj odpowiada usługom fryzjerskim)
+
+SELECT COUNT(rodzaj) FROM `uslugi` WHERE rodzaj=2;
+
+
+Zapytanie 3: tworzące użytkownika fryzjer na localhost z hasłem Fryz12
+
+CREATE USER 'fryzjer'@'localhost' IDENTIFIED BY 'Fryz12'; - utworzenie
+DROP USER 'fryzjer'@'localhost'; - usunięcie
+SELECT User, Host FROM mysql.user; - wyświetlenie
+
+
+Zapytanie 4: nadające prawa tworzenia i modyfikowania struktury tabeli oraz przeglądania danych w tabeli kadra bazy egzamin2 dla użytkownika fryzjer
+
+GRANT CREATE, ALTER, SELECT ON egzamin2.* TO 'fryzjer'@'localhost'; - nadaj prawa
+SHOW GRANTS FOR 'fryzjer'@'localhost'; - wyświetl prawa
