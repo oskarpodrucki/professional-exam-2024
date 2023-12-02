@@ -37,13 +37,13 @@
 
     <div id="left2">
         <h3>Dziś promocja na strzyżenie włosów</h3>
-        <input type="radio" name="promocja">Krótkie</input> <br>
-        <input type="radio" name="promocja">Średnie</input> <br>
-        <input type="radio" name="promocja">Półdługie</input> <br>
-        <input type="radio" name="promocja">Długie</input> <br>
-        <button>Odkryj promocję</button> <br> <br> 
+        <input type="radio" value="krotkie" name="promocja">Krótkie</input> <br>
+        <input type="radio" value="srednie" name="promocja">Średnie</input> <br>
+        <input type="radio" value="poldlugie" name="promocja">Półdługie</input> <br>
+        <input type="radio" value="dlugie" name="promocja">Długie</input> <br>
+        <button onclick="showValue(value)">Odkryj promocję</button> <br> <br> 
     
-        <p>Cena strzyżenia: -</p>
+        <p id="wynik">Cena strzyżenia: -</p>
     </div>
 
     <div id="right3">
@@ -57,7 +57,7 @@
     </div>
 
     
-
+    <script src="skrypt.js"></script>
 </body>
 
 </html>
