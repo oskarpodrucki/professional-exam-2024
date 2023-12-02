@@ -20,7 +20,7 @@ https://egzamin-programista.pl/arkusz-praktyczny-ee09-2022-06-02
 
 https://egzamin-programista.pl/arkusz-praktyczny-ee09-2020-06-05
 
-![Alt result]()
+![Alt result](Result-ARKUSZ-EE.09-2020-CZERWIEC-ZAD.05-(JS).jpg)
 
 #   
 
