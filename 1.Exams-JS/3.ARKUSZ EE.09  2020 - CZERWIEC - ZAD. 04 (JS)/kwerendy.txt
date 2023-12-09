@@ -1,0 +1,23 @@
+Zapytanie 1: wybierające jedynie pola nazwa i cena z tabeli uslugi dla usług, których cena jest niższa od 30 zł
+
+SELECT `nazwa`,`cena` FROM `uslugi` WHERE cena < 30;
+
+
+
+Zapytanie 2: liczące sumę cen dla wszystkich usług kosmetycznych (rodzaj odpowiada usługom kosmetycznym)
+
+SELECT SUM(cena) FROM `uslugi` WHERE rodzaj = 1;
+
+
+
+Zapytanie 3: tworzące użytkownika kosmetyczka na localhost z hasłem Kosmet34
+
+CREATE USER 'kosmetyczka'@'localhost' IDENTIFIED BY 'Kosmet34'; - dodanie
+SELECT User, Host FROM mysql.user WHERE User = 'kosmetyczka'; - sprawdzenie
+
+
+
+Zapytanie 4: nadające prawa przeglądania danych i wstawiania rekordów do tabeli uslugi bazy egzamin1 dla użytkownika kosmetyczka
+
+GRANT SELECT, INSERT ON kosmetyczka.uslugi TO 'kosmetyczka'@'localhost'; - dodanie
+SHOW GRANTS FOR 'kosmetyczka'@'localhost'; - sprawdzenie
