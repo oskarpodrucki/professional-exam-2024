@@ -1,0 +1,18 @@
+kw1:
+
+SELECT `id`, `imie`, `nazwisko`, `rok_urodzenia`, `zdjecie` FROM `osoby` LIMIT 30;
+
+
+kw2:
+
+SELECT `imie`, `nazwisko`, `rok_urodzenia`, `opis`,`zdjecie` FROM `osoby` JOIN hobby ON osoby.Hobby_id = hobby.id WHERE osoby.id = 10;
+
+
+kw3:
+
+SELECT ROUND(AVG(rok_urodzenia)), MIN(rok_urodzenia), MAX(rok_urodzenia) FROM `osoby`;
+
+
+kw4:
+
+UPDATE `osoby` SET `opis`='nauka' WHERE Hobby_id = 4;
