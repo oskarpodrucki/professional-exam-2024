@@ -1,0 +1,56 @@
+* {
+	font-family: Georgia;
+}
+
+#baner {
+	background-color: #005b4f;
+	color: white;
+	text-align: center;
+	font-size: 50%;
+	height: 20px;
+}
+
+#glowny {
+	background-color: #e1e2e1;
+	height: 400px;
+	padding: 20px;
+	overflow: scroll;
+}
+
+#foto {
+	width: 20%;
+    float: left;
+}
+
+#opis {
+    float: left;
+}
+
+#hr {
+	width: 100%;
+    clear: both;
+}
+
+#stopka1,
+#stopka2 {
+	background-color: #005b4f;
+	color: white;
+	text-align: center;
+	width: 50%;
+	height: 20px;
+	float: left;
+}
+
+img {
+	padding: 20px;
+	border-radius: 100%;
+}
+
+h2 {
+	text-align: center;
+	background-color: #00897b;
+}
+
+a {
+	color: white;
+}
