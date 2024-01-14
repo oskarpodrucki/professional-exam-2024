@@ -1,0 +1,18 @@
+kw1:
+
+SELECT `id`, `nazwa`, `wystepowanie` FROM `ryby` WHERE `styl_zycia` = 1;
+
+
+kw2:
+
+SELECT `Ryby_id`, `wymiar_ochronny` FROM `okres_ochronny` WHERE `wymiar_ochronny` < 30;
+
+
+kw3:
+
+SELECT ryby.nazwa, lowisko.akwen, lowisko.wojewodztwo FROM `ryby` JOIN lowisko ON ryby.id = lowisko.Ryby_id WHERE lowisko.rodzaj = 3;
+
+
+kw4:
+
+ALTER TABLE Ryby ADD COLUMN dobowy_limit NUMERIC CHECK (dobowy_limit >= 0 AND dobowy_limit <= 255);
