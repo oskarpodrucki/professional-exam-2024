@@ -1,0 +1,7 @@
+SELECT `imie`, `nazwisko` FROM `zawodnik` WHERE `pozycja_id`=4;
+
+SELECT `zespol`, `punkty`, `grupa` FROM `liga` ORDER BY punkty DESC;
+
+SELECT zawodnik.id, zawodnik.nazwisko, pozycja.nazwa FROM zawodnik JOIN pozycja ON zawodnik.pozycja_id = pozycja.id WHERE zawodnik.id IN (3,5);
+
+"TRUNCATE TABLE `egzamin`.`rozgrywka`"?

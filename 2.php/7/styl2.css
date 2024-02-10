@@ -1,0 +1,51 @@
+body {
+	font-family: Verdana;
+	background-color: SeaGreen;
+}
+
+#baner {
+	color: white;
+	text-align: center;
+	height: 330px;
+}
+
+.team-info {
+	width: 170px;
+	text-align: center;
+	color: white;
+	margin: 5px;
+	border: 1px solid white;
+	border-radius: 15px;
+    display: inline-block;
+}
+
+.team-info:hover {
+	background-color: white;
+	color: black;
+}
+
+#glowny {
+	color: white;
+	clear: both;
+}
+
+#lewy {
+	background-color: WhiteSmoke;
+	width: 30%;
+	text-align: center;
+	height: 150px;
+	float: left;
+}
+
+#prawy {
+	background-color: WhiteSmoke;
+	width: 70%;
+	height: 150px;
+	float: left;
+}
+
+h3 {
+	text-align: center;
+	letter-spacing: 6px;
+	text-transform: capitalize;
+}
