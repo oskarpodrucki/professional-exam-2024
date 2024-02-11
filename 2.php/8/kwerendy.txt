@@ -1,0 +1,7 @@
+SELECT `id`, `cel`, `cena` FROM `wycieczki` WHERE `dostepna` = FALSE;
+
+SELECT `nazwaPliku`, `podpis` FROM `zdjecia` ORDER BY podpis DESC;
+
+SELECT zdjecia.podpis, wycieczki.cena, wycieczki.cel FROM wycieczki JOIN zdjecia ON wycieczki.zdjecia_id = zdjecia.id WHERE cena < 1200;
+
+ALTER TABLE `wycieczki` DROP `dataWyjazdu`;
