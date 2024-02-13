@@ -1,0 +1,50 @@
+body {
+	font-family: Verdana;
+}
+
+#baner,
+#stopka {
+	background-color: rgb(205, 95, 92);
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#lewy,
+#prawy {
+	background-color: rgb(250, 235, 215);
+	width: 25%;
+	height: 500px;
+	float: left;
+}
+
+#srodkowy {
+	background-color: rgb(250, 235, 215);
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+#dane {
+	background-color: rgb(210, 180, 140);
+	color: white;
+	clear: both;
+}
+
+h2 {
+	text-align: center;
+}
+
+h2::first-letter {
+	font-size: 150%;
+}
+
+img {
+	height: 100px;
+	padding: 7px;
+    display: inline-block;
+}
+
+img:hover {
+	background-color: rgb(210, 180, 140);
+}
