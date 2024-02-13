@@ -1,7 +1,7 @@
-SELECT `id`, `dataWyjazdu`, `cel`, `cena` FROM `wycieczki` WHERE `dostepna` = TRUE;
+SELECT `miesiac`, `rok` FROM `zadania` WHERE `dataZadania` = "2020-07-01";
 
-SELECT `nazwaPliku`, `podpis` FROM `zdjecia` ORDER BY podpis;
+SELECT `dataZadania`, `wpis` FROM `zadania` WHERE `miesiac` = "lipiec";
 
-SELECT zdjecia.nazwaPliku, wycieczki.cel FROM zdjecia JOIN wycieczki ON zdjecia.id = wycieczki.zdjecia_id WHERE wycieczki.cena > 1000;
+SELECT DISTINCT(`miesiac`) FROM `zadania` WHERE miesiac LIKE "l%";
 
-ALTER TABLE wycieczki ADD COLUMN dataPrzyjazdu DATE AFTER dataWyjazdu;
+UPDATE `zadania` SET `wpis`='Wycieczka: jezioro' WHERE `dataZadania` = "2020-07-13";
