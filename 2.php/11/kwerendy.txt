@@ -1,0 +1,7 @@
+SELECT `id`, `nazwa`, `wystepowanie` FROM `ryby` WHERE `styl_zycia` = 2;
+
+SELECT `akwen`, `wojewodztwo` FROM `lowisko` WHERE `rodzaj` IN (2,3);
+
+SELECT ryby.nazwa FROM ryby JOIN okres_ochronny ON ryby.id = okres_ochronny.Ryby_id WHERE okres_ochronny.wymiar_ochronny = 0;
+
+CREATE TABLE `wedkowanie`.`wedkarze` (`id` INT UNSIGNED NULL , `imie` TEXT NOT NULL , `nazwisko` TEXT NOT NULL , `punkty` INT NOT NULL );
