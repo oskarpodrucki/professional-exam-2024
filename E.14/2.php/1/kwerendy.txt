@@ -1,0 +1,7 @@
+zapytanie 1: SELECT `imie`, `nazwisko` FROM `uczen`;
+
+zapytanie 2: SELECT `imie`, `nazwisko` FROM `uczen` WHERE id = 2;
+
+zapytanie 3: SELECT `ocena` FROM `ocena` WHERE `przedmiot_id` = 1 AND `uczen_id` = 2;
+
+zapytanie 4: SELECT AVG(`ocena`) AS srednia FROM `ocena` WHERE `przedmiot_id` = 1 AND `uczen_id` = 2;
